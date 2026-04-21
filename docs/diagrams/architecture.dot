@@ -35,7 +35,7 @@ digraph OceanFish_Architecture {
         VED [label="Подсистема Внешнеэкономической\nдеятельности"]
         Monitoring [label="Подсистема Мониторинга\nсудов"]
         Fishing [label="Подсистема Промышленного\nрыболовства"]
-        User [label="Подсистема Романа —\nинтеграция", fillcolor="#FFCC80"]
+        User [label="Интеграция всех микросервисов —\nинтеграция", fillcolor="#FFCC80"]
     }
 
     Docker [label="Docker Compose", shape=ellipse, fillcolor="#FFF9C4", fontsize=12, style="filled"]
